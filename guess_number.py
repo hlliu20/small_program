@@ -1,3 +1,4 @@
+import random
 def guess():
     min = eval(input('please input the min limitation:'))
     max = eval(input('please input the max iimitation:'))
