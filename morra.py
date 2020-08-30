@@ -5,7 +5,7 @@ def morra():
     morra_dict={1:"石头", 2:"剪刀", 3:"布"}
     flag = "y"
     while flag == "y":
-        computer = random.randint(3) + 1
+        computer = random.randint(1,3)
         people = eval(input('你出:'))
         if computer==people:
             print("平局")
