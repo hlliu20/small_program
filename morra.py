@@ -3,7 +3,7 @@ def morra():
     print("猜拳游戏")
     print("1代表石头， 2剪刀，3布")
     morra_dict={1:"石头", 2:"剪刀", 3:"布"}
-    flag = y
+    flag = "y"
     while flag == "y":
         computer = random.randint(3) + 1
         people = eval(input('你出:'))
