@@ -1,8 +1,8 @@
 import random
 def guess():
     print("猜数游戏")
-    min = eval(input('请输入最大值:'))
-    max = eval(input('请输入最小值:'))
+    min = eval(input('请输入最小值:'))
+    max = eval(input('请输入最大值:'))
     guess = random.randint(min, max)
     people = min-1
     time = 1
