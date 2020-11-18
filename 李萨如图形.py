@@ -41,6 +41,7 @@ def common():
     draw(1, 1, 90, 100, -200, -200)
     draw(2, 1, 90, 100, 0, -200)
     draw(3, 1, 90, 100, 200, -200)
+    turtle.hideturtle()
     turtle.done()
 
 
